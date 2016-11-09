@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/about_us"
+            android:title="@string/about_us" />
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/project_icon"
+            android:title="@string/project" />
+        <item
+            android:id="@+id/nav_testimonial"
+            android:icon="@drawable/customer"
+            android:title="@string/testimonials" />
+        <item
+            android:id="@+id/nav_vastu"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/vastu_tips"/>
+        <item
+            android:id="@+id/nav_faq"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_faq"/>
+        <item
+            android:id="@+id/nav_info"
+            android:icon="@drawable/ic_info_outline_black_24dp"
+            android:title="@string/nav_info"/>
+
+    </group>
+
+</menu>

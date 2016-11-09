@@ -1,0 +1,36 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="splash_logo">24dp</dimen>
+    <dimen name="btn_margin_top">-36dp</dimen>
+    <dimen name="recycler_view_height">448dp</dimen>
+    <dimen name="icon_home_width">168dp</dimen>
+    <dimen name="icon_home_height">168dp</dimen>
+    <dimen name="info_image_height">240dp</dimen>
+    <dimen name="info_image_height_margin_share">240dp</dimen>
+    <dimen name="info_image_height_margin_text">290dp</dimen>
+    <dimen name="contact_tv_width">340dp</dimen>
+    <dimen name="recycler_margin_top">48dp</dimen>
+    <dimen name="tv_margin_top">48dp</dimen>
+    <dimen name="iv_width_rv_vastu">72dp</dimen>
+    <dimen name="iv_height_rv_vastu">78dp</dimen>
+    <dimen name="margin_ten_dp">10dp</dimen>
+    <dimen name="rv_margin_top">56dp</dimen>
+    <dimen name="rv_margin_top_about">266dp</dimen>
+    <dimen name="tv_vastu_width">280dp</dimen>
+    <dimen name="recycler_view_width">240dp</dimen>
+    <dimen name="font_size_about_title">22sp</dimen>
+    <dimen name="font_size_about_desc">16sp</dimen>
+    <dimen name="about_tv_width">280dp</dimen>
+    <dimen name="about_margin_top">-36dp</dimen>
+    <dimen name="card_view_width">320dp</dimen>
+    <dimen name="about_margin_bottom">-20dp</dimen>
+    <dimen name="cv_margin">16dp</dimen>
+    <dimen name="recycler_view_height_row">118dp</dimen>
+
+</resources>

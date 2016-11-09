@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/iv_height_rv_vastu"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/iv_rv_vastu"
+        android:layout_width="@dimen/iv_width_rv_vastu"
+        android:layout_height="@dimen/iv_height_rv_vastu"
+        android:src="@drawable/north_map" />
+
+    <TextView
+        android:id="@+id/tv_rv_vastu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="@dimen/margin_ten_dp"
+        android:textStyle="bold"
+        />
+</LinearLayout>

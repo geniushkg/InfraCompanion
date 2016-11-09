@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.hardikgoswami.aviratv1.info.InfoFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/info_image_height"
+        android:src="@drawable/avirat_logo_landscape"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_share_app"
+        android:text="@string/btn_share_app"
+        android:layout_marginTop="@dimen/info_image_height_margin_share"
+        android:layout_gravity="center_horizontal"/>
+    <TextView
+        android:layout_width="@dimen/contact_tv_width"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_info_contact"
+        android:layout_marginTop="@dimen/info_image_height_margin_text"
+        android:layout_gravity="center_horizontal"/>
+
+</FrameLayout>
