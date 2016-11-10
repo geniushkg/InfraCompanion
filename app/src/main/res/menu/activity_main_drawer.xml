@@ -18,6 +18,13 @@
             android:id="@+id/nav_brochure"
             android:icon="@drawable/project_icon"
             android:title="@string/brochure" />
+
+        <item
+            android:id="@+id/nav_listing"
+            android:icon="@drawable/project_icon"
+            android:title="@string/listing" />
+
+
         <item
             android:id="@+id/nav_testimonial"
             android:icon="@drawable/customer"

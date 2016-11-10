@@ -5,9 +5,56 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.hardikgoswami.aviratv1.project.ProjectDetailsActivity">
-    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <fragment
         android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        class="com.google.android.gms.maps.SupportMapFragment" />
+        android:layout_height="@dimen/map_height_project" />
+
+    <TextView
+        android:id="@+id/tv_address_project_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/map"
+        android:layout_centerHorizontal="true"
+        android:text="@string/address_current_project" />
+
+    <TextView
+        android:id="@+id/tv_banks_label"
+        android:layout_width="@dimen/tv_banks_label"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_address_project_detail"
+        android:layout_centerHorizontal="true"
+        android:text="@string/banks_verified_loan" />
+
+    <TextView
+        android:id="@+id/tv_plans_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_banks_label"
+        android:layout_centerHorizontal="true"
+        android:text="@string/plans_text" />
+
+    <ImageView
+        android:id="@+id/iv_plans_project_detail"
+        android:layout_width="@dimen/iv_width_project_detail_plan"
+        android:layout_height="@dimen/iv_width_project_detail_plan"
+        android:layout_below="@+id/tv_plans_label"
+        android:src="@drawable/plan" />
+
+    <TextView
+        android:id="@+id/tv_price_label"
+        android:layout_width="@dimen/tv_banks_label"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_plans_project_detail" />
+
+    <Button
+        android:id="@+id/btn_project_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_plans_label"
+        android:text="@string/btn_inquire"
+        android:layout_toRightOf="@+id/iv_plans_project_detail"/>
+
 </RelativeLayout>

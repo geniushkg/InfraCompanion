@@ -32,5 +32,10 @@
     <dimen name="about_margin_bottom">-20dp</dimen>
     <dimen name="cv_margin">16dp</dimen>
     <dimen name="recycler_view_height_row">118dp</dimen>
+    <dimen name="map_height_project">280dp</dimen>
+    <dimen name="tv_banks_label">218dp</dimen>
+    <dimen name="iv_width_project_detail_plan">148dp</dimen>
+    <dimen name="rv_listing_row_dimen">78dp</dimen>
+    <dimen name="margin_16dp">16dp</dimen>
 
 </resources>

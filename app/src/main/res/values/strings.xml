@@ -81,4 +81,10 @@
     <string name="project_string_cv2">Current Projects</string>
     <string name="project_string_cv3">Past Projects</string>
     <string name="brochure">Brochure</string>
+    <string name="google_maps_api_key">AIzaSyBEirn3eNSgdr2dnCRzEkXcdkb2mFOfg0o</string>
+    <string name="address_current_project">This is address of current project , district , Pin - 008990</string>
+    <string name="banks_verified_loan">Following banks provide loan : XYZ Bank , Abc Bank</string>
+    <string name="plans_text">Plans for project are as mentioned below</string>
+    <string name="btn_inquire">Inquire</string>
+    <string name="listing">Listing</string>
 </resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_rv_listing_row"
+        android:layout_width="@dimen/rv_listing_row_dimen"
+        android:layout_height="@dimen/rv_listing_row_dimen"
+        android:src="@drawable/nav_image"/>
+
+    <TextView
+        android:id="@+id/tv_title_listing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_16dp"
+        android:layout_toRightOf="@+id/iv_rv_listing_row"
+        android:text="3BHK flat dummy text for 45 lacs . possesion ready" />
+
+    <TextView
+        android:id="@+id/tv_address_listing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_title_listing"
+        android:layout_marginLeft="@dimen/margin_16dp"
+        android:layout_toRightOf="@+id/iv_rv_listing_row"
+        android:text="This is text addrss of the property listed" />
+
+    <Button
+        android:id="@+id/btn_call_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_address_listing"
+        android:layout_toRightOf="@+id/iv_rv_listing_row"
+        android:text="Call Owner" />
+</RelativeLayout>
