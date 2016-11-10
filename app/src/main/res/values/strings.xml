@@ -80,4 +80,5 @@
     <string name="project_string_cv1">Live Projects</string>
     <string name="project_string_cv2">Current Projects</string>
     <string name="project_string_cv3">Past Projects</string>
+    <string name="brochure">Brochure</string>
 </resources>

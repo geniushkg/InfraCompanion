@@ -20,6 +20,7 @@ import android.widget.Toast;
 import com.hardikgoswami.aviratv1.R;
 import com.hardikgoswami.aviratv1.about.AboutActivity;
 import com.hardikgoswami.aviratv1.about.AboutFragment;
+import com.hardikgoswami.aviratv1.brochure.BrochureFragment;
 import com.hardikgoswami.aviratv1.faq.FaqFragment;
 import com.hardikgoswami.aviratv1.info.InfoFragment;
 import com.hardikgoswami.aviratv1.project.ProjectFragment;
@@ -110,6 +111,9 @@ public class MainActivity extends AppCompatActivity
                 break;
             case R.id.nav_project:
                 fragment = new ProjectFragment();
+                break;
+            case R.id.nav_brochure:
+                fragment = new BrochureFragment();
                 break;
             case R.id.nav_testimonial:
                 break;
