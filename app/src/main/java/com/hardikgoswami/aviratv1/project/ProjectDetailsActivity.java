@@ -3,6 +3,8 @@ package com.hardikgoswami.aviratv1.project;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.hardikgoswami.aviratv1.R;
+
 public class ProjectDetailsActivity extends AppCompatActivity {
 
     @Override
